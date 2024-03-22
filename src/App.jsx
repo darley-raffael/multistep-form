@@ -35,8 +35,6 @@ function App() {
   const { currentStep, currentComponent, changeStep, isFirstStep, isLastStep } =
     useMultiForm(components);
 
-  console.log(currentStep, currentComponent);
-
   return (
     <div className="app">
       <header className="header">
